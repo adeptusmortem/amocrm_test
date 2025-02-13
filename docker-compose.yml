@@ -8,8 +8,8 @@ services:
     image: mysql:8.0
     environment:
       MYSQL_DATABASE: monitoring_db
-      MYSQL_USER: your_user
-      MYSQL_PASSWORD: your_password
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: adminadmin
       MYSQL_ROOT_PASSWORD: rootpassword
     ports:
       - "3306:3306"
